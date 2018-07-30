@@ -1,0 +1,9 @@
+- I did not used kubernetes  before but i did the following 
+- First i followed the Dockerized link to make sure that every thing is working, and got ruby on localhost:8000
+- then i installed  kubernetes, kubectl
+- then i installed minikube following the fedora magazine steps https://fedoramagazine.org/minikube-kubernetes/ on my fedora laptop
+- then installed VBOX to start minikube cluster 
+- then installed kompose to migrate from docer-compose to kubernetes, kompose --file docker-compose.yml convert
+- i got some errors so i did some researches and did some changes on the docker compose file by adding the version and image tags,
+- Got stuck at the configmaps parts as i did not have enough time to do the researches as i have got some projects at work plus i was preparing for 
+a giving a devops speach at the greek campus 
